@@ -1,33 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>Clock</title>
-  </head>
-  <body>
-    <div class="left">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Symphony</title>
+</head>
+<body>
+    <div class="slider-container">
+      <div class="image-container">
+        <img src="photos/slider-picture.jpg" alt="image" />
+        <img src="photos/slider-picture2.jpg" alt="image" />
+        <img src="photos/slider-picture3.jpg" alt="image" />
+        <img src="photos/slider-picture4.jpg" alt="image" />
+        <img src="photos/slider-picture5.jpg" alt="image" />
+        <img src="photos/slider-picture6.jpg" alt="image" />
+        <img src="photos/slider-picture7.jpg" alt="image" />
+        <img src="photos/slider-picture8.jpg" alt="image" />
+      </div>
+      <i class="fas fa-angle-double-left btn prev"></i>
+      <i class="fas fa-angle-double-right btn next"></i>
+    </div>
+    <header class="fixed-part">
+        <div class="logo">🎼 Symphony</div>
         <nav class="menu">
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#work">Our Work</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <div class="title"><h1>🎼 Symphony</h1></div>
-        <div class="paragraphe">
-            <p>Symphony brings together innovation, creativity, and technology<br>to deliver exceptional solutions that empower businesses and inspire<br>growth in a rapidly evolving world</p>
+    </header>
+
+    <h1>Discover premium suits crafted with exceptional quality, modern style, and unmatched comfort for every occasion.</h1>
+    <h2>Shop by Category</h2>
+    <div class="container-category-suits">
+        <div class="category-suits">
+            <img src="photos/Business Suits.jpg">
+            <h3>Business Suits</h3>
+            <p>Professional suits designed for confidence, comfort, and success in the workplace.</p>
+        </div>
+        <div class="category-suits">
+            <img src="photos/Wedding Suits.jpg">
+            <h3>Wedding Suits</h3>
+            <p>Elegant suits crafted to make your special day truly unforgettable.</p>
+        </div>
+        <div class="category-suits">
+            <img src="photos/Formal Wear.jpg">
+            <h3>Formal Wear</h3>
+            <p>Sophisticated attire for formal events, galas, and special occasions.</p>
         </div>
     </div>
-    <div class="right">
-        <img src="symphony.svg" alt="Company Image" >
+    <h2>Why Choose Symphony?</h2>
+    <div class="choose-cards">
+        <div>
+            <h3>Premium<br>Fabrics</h3>
+            <p>Crafted from high-quality materials.</p>
+        </div>
+        <div>
+            <h3>Perfect<br>Fit</h3>
+            <p>Designed for comfort and confidence.</p>
+        </div>
+        <div>
+            <h3>Timeless<br>Style</h3>
+            <p>Elegant designs for every occasion.</p>
+        </div>
+        <div>
+            <h3>Customer<br>Satisfaction</h3>
+            <p>Committed to excellence and service.</p>
+        </div>
     </div>
+
+    <footer class="footer">
+
+        <h2>Symphony Classic Suits</h2>
+
+        <p>Style in Perfect Harmony</p>
+
+        <p class="footer-text">
+            Premium suits designed for elegance, confidence, and timeless style.
+            Crafted for modern gentlemen who value quality and sophistication.
+        </p>
+
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Symphony Classic Suits. All rights reserved.
+        </p>
+
+    </footer>
 
     <script src="script.js"></script>
   </body>
